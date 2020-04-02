@@ -14,3 +14,4 @@ $api = new \WPAS\Controller\WPASAPIController([
  * Then you can start adding each endpoint one by one
 */
 $api->get([ 'path' => '/courses', 'controller' => 'SampleController:getDraftCourses' ]); 
+$api->get([ 'path' => '/phones', 'controller' => 'SampleController:getDraftPhones' ]); 
